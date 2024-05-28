@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(imagen\ fondo.jpg );
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center donw;
+}
+
+.areaprincipal{ width: 50%;
+    background-color: white;
+
+}
+
