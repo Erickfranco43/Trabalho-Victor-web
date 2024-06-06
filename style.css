@@ -1,3 +1,4 @@
+/*Estilo Geral */
 *{
     margin: 0;
     padding: 0;
@@ -5,14 +6,46 @@
 }
 
 body{
-    background-image: url(imagen\ fondo.jpg );
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center donw;
+background-color: black;
+    height: 100vh;
 }
 
-.areaprincipal{ width: 50%;
-    background-color: white;
-
+.areaprincipal{
+    width: 90%;
+    background-color:rgba(0, 0, 0, 0.8);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 17px;
+    text-align: center;
+    color: #eeeeee;
 }
 
+.flex{
+    display: flex;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 28px;
+}
+/* Estilo do Topo do Site */
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+.topo-do-site h1{
+    color:#fff;
+}
+header{
+    width: 82%;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 10px;
+    padding: 9px 20%; 
+    border-radius: 17px;
+    text-align: center;
+    color: #cccccc;
+}
